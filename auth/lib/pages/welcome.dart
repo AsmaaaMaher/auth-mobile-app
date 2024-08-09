@@ -5,7 +5,7 @@ class Welcome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       body:Stack(
         children: [
           Positioned(child: Image.asset("assets/images/main_top.png")
