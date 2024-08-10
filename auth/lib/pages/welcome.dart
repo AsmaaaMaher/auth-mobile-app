@@ -20,19 +20,19 @@ class Welcome extends StatelessWidget {
                 children: [
                    // ignore: prefer_const_constructors
                    SizedBox(
-                    height: 22,
+                    height: 35,
                   ),
                   // ignore: prefer_const_constructors
                   Text("welcome", style: TextStyle(fontSize: 33,fontFamily: "myfont"),),
                    // ignore: prefer_const_constructors
                    SizedBox(
-                    height: 22,
+                    height: 35,
                   ),
                   SvgPicture.asset("assets/icons/chat.svg",width:288),
 
                    // ignore: prefer_const_constructors
                    SizedBox(
-                    height: 22,
+                    height: 35,
                   ),
                   ElevatedButton(
                     onPressed: () {
@@ -90,7 +90,7 @@ class Welcome extends StatelessWidget {
                 bottom: 0,
                 child: Image.asset(
                   "assets/images/main_bottom.png",
-                  width: 90,
+                  width: 111,
                 )),
           ],
         ),
