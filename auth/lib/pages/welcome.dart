@@ -13,7 +13,7 @@ class Welcome extends StatelessWidget {
         width: double.infinity,
         child: Stack(
           children: [
-            Container(
+            SizedBox(
               width: double.infinity,
               // color: Colors.amber,
               child: Column(
