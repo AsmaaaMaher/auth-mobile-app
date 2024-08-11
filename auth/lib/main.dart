@@ -18,7 +18,9 @@ initialRoute: "/",
         '/': (context) => const Welcome(),
         '/signup': (context) => const Signup(),
         '/login': (context) => const Login(),
+        '/Profile': (context) => const Profile(),
   },
+  
   
     );
   }
