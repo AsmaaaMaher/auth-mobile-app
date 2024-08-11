@@ -1,4 +1,5 @@
 import 'package:auth/pages/login.dart';
+import 'package:auth/pages/Profile.dart';
 import 'package:auth/pages/signup.dart';
 import 'package:auth/pages/welcome.dart';
 import 'package:flutter/material.dart';
