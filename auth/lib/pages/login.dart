@@ -104,7 +104,6 @@ class Login extends StatelessWidget {
                       children: [
                         TextButton(
                           onPressed: () {
-                           
                             Navigator.pushNamed(context, "/signup");
                           },
                           child: Text(
@@ -114,11 +113,25 @@ class Login extends StatelessWidget {
                         ),
                         TextButton(
                           onPressed: () {
-                            
                             Navigator.pushNamed(context, "/signup");
                           },
                           child: Text(
                             "Create Account",
+                            style: TextStyle(color: Colors.purple[800]),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        TextButton.icon(
+                          onPressed: () {
+                            Navigator.pushNamed(context, "/");
+                          },
+                          icon: Icon(Icons.home,
+                              color: Colors.purple[800]), 
+                          label: Text(
+                            "Back to Home",
                             style: TextStyle(color: Colors.purple[800]),
                           ),
                         ),
