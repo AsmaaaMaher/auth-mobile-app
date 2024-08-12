@@ -8,7 +8,7 @@ class Profile extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Profile Page'),
+          title: const Text('Profile Page'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -16,11 +16,11 @@ class Profile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              CircleAvatar(
+              const CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage('assets/images/profile_picture.jpg'), width: 50,
+                backgroundImage: AssetImage('assets/images/profile_picture.jpg'),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               // Name Button
               Card(
                 shape: RoundedRectangleBorder(
@@ -45,7 +45,7 @@ class Profile extends StatelessWidget {
                         // Handle name button click
                       },
                       style: TextButton.styleFrom(
-                        padding: EdgeInsets.all(16),
+                        padding: const EdgeInsets.all(16),
                       ),
                       child: Text(
                         "Edit",
@@ -55,7 +55,7 @@ class Profile extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               // Email Button
               Card(
                 shape: RoundedRectangleBorder(
@@ -80,7 +80,7 @@ class Profile extends StatelessWidget {
                         // Handle email button click
                       },
                       style: TextButton.styleFrom(
-                        padding: EdgeInsets.all(16),
+                        padding: const EdgeInsets.all(16),
                       ),
                       child: Text(
                         "Edit",
@@ -90,7 +90,7 @@ class Profile extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               // Password Button
               Card(
                 shape: RoundedRectangleBorder(
@@ -115,7 +115,7 @@ class Profile extends StatelessWidget {
                         // Handle password button click
                       },
                       style: TextButton.styleFrom(
-                        padding: EdgeInsets.all(16),
+                        padding: const EdgeInsets.all(16),
                       ),
                       child: Text(
                         "Change",
